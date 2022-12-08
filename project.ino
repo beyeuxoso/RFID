@@ -44,7 +44,6 @@ int tmp1[4];
 boolean thoat=false,thoat1=false;
 String newpass;
 boolean dadoi=false;
-//uint8_t sl=0;
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);
@@ -66,10 +65,8 @@ void manhinhchinh(){
   }
 void menu_tong() // HIỂN THỊ MENU TỔNG
 {
-  //lcd.clear();
   if (congtru_tong == 0)
   {
-    //lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print(">Them the");
     lcd.setCursor(0, 1);
@@ -77,7 +74,6 @@ void menu_tong() // HIỂN THỊ MENU TỔNG
   }
   else if (congtru_tong == 1)
   {
-    //lcd.clear();
     lcd.setCursor(0, 0);
     lcd.print(" Them the");
     lcd.setCursor(0, 1);
@@ -85,7 +81,6 @@ void menu_tong() // HIỂN THỊ MENU TỔNG
   }
   else if (congtru_tong == 2)
   {
-    //lcd.clear();
     lcd.setCursor(0, 0);
    lcd.print(" Xoa the");
     lcd.setCursor(0, 1);
